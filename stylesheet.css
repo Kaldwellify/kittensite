@@ -1,0 +1,138 @@
+body {
+  font-family: Arial, Verdana, sans-serif;
+  margin: 0;
+  line-height: 1.75em;
+  color: #333333;
+}
+
+header {
+  padding: 80px 80px 80px 150px;
+  text-align: left;
+  background-color: #0099cc;
+  color: white;
+  max-height: 350px;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.navbannertop {
+  overflow:hidden;
+  background-color: #e6e6e6;
+  padding-left: 75px;
+  height: 75px;
+}
+
+.navbannertop li {
+  display: inline;
+  float: left;
+  padding: 14px 20px;
+}
+
+.navbannertop a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.landingpage {
+  flex: 65%;
+  padding-left: 65px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  
+}
+
+.boldhighlight {
+  font-size: 1.5em;
+  color: #0099cc;
+  font-weight: bolder;
+  line-height: 1.5em;
+  padding-left: 65px;
+}
+
+blockquote {
+  margin-left: 0;
+  color: #0099cc;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 65px;
+}
+
+.news {
+  flex: 35%;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+}
+
+footer {
+  background-color: #333333;
+  text-align: center;
+  padding: 100px;
+  color: #ffffff;
+}
+
+footer nav li {
+  display: inline;
+  padding: 8px
+}
+
+footer nav a {
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+figure {
+  margin-left: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* Cat Rates Web Page Styling */
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+}
+
+.kittenbanner {
+  height: 150px;
+}
+
+.textcenter {
+  text-align: center;
+}
