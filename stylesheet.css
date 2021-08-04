@@ -44,6 +44,10 @@ header p {
   text-align: center;
 }
 
+.highlight {
+  color: #0099cc;
+}
+
 .main {
   display: flex;
   flex-wrap: wrap;
