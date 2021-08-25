@@ -8,8 +8,8 @@ body {
 header {
   padding: 80px 80px 80px 150px;
   text-align: left;
-  background-color: #0099cc;
-  color: white;
+  background-color: #007AA3;
+  color: #ffffff;
   max-height: 350px;
 }
 
@@ -139,4 +139,15 @@ figure {
 
 .textcenter {
   text-align: center;
+}
+
+/* a11y styling */
+
+.hidden {
+  position: relative;
+  left: -10000px;
+}
+
+.hidden:focus {
+  left: 0;
 }
